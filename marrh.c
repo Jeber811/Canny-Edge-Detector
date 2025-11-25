@@ -1,6 +1,8 @@
 // Jake Weber
 
-// Expected command line format: ./marrh.exe input.pgm magnitude.pgm peaks.pgm Final Edges.pgm sigma percent
+// Expected command line format:
+//     gcc marrh.c -o marrh
+//     ./marrh.exe garb34.pgm magnitude.pgm peaks.pgm Final Edges.pgm 1.0 5.0
 // Input: input.pgm
 // Output: magnitude.pgm (contains the image of magnitudes)
 // Output: peaks.pgm (contains the image of peaks determineed from the non-maxima suppression algorithm)
