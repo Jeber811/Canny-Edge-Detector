@@ -1,5 +1,5 @@
-// gcc sobel.c -o s
-// ./s .\garb34.pgm sobelmag.pgm sobelout1.pgm sobelout2.pgm 110 40
+// gcc sobel.c -o sobel
+// ./sobel garb34.pgm sobelmag.pgm sobelout1.pgm sobelout2.pgm 110 40
 
 #include <stdio.h> /* Sobel.c */
 #include <math.h>
@@ -146,4 +146,5 @@ char **argv;
                 fprintf(fo3, "%c", (char)0);
         }
     }
+
 }
