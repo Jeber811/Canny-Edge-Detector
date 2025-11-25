@@ -1,4 +1,4 @@
-# Canny-Edge-Detector
+# Canny-Edge-Detector (marrh.c)
 
 Multi-stage edge detection algorithm for PGM formatted image files. Involves:
 
@@ -6,7 +6,7 @@ Gaussian function calculation, non-maxima suppression of magnitudes perpendicula
 
 Takes sigma and percent values as user-inputted parameters.
 
-# Sobel-Edge-Detector
+# Sobel-Edge-Detector (Sobel.c)
 
 Gradient-based edge detection algorithm for PGM formatted image files. Involves:
 
